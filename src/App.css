@@ -16,6 +16,18 @@ body {
 
 }
 
+@media (max-width: 700px) {
+  .game {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: 40px;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 20px;
+  }
+}
+
 .game-board {
   margin: auto;
   background: url(board.png);
